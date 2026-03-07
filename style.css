@@ -142,7 +142,7 @@ div img {
 	}
 
 	.col-big {
-		flex: 0 0 25%;
+		flex: 0 0 15%;
 		order: 0;
 	}
 }
