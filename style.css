@@ -43,6 +43,11 @@ div img {
 	flex-flow: row wrap;
 }
 
+.scroll-row {
+	display: flex;
+	overflow-x: auto;
+}
+
 /* attribute selector to give some margin between columns and apply styles to flex items */
 
 [class*="col-"] {
@@ -137,12 +142,12 @@ div img {
 	}
 
 	.col-small {
-		flex: 0 0 14%;
+		flex: 0 0 15%;
 		order: 0;
 	}
 
 	.col-big {
-		flex: 0 0 14%;
+		flex: 0 0 25%;
 		order: 0;
 	}
 }
