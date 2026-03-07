@@ -43,13 +43,6 @@ div img {
 	flex-flow: row wrap;
 }
 
-.scroll-row {
-	display: flex;
-	flex-flow: row wrap;
-	flex-wrap: nowrap;
-	overflow-x: auto;
-}
-
 /* attribute selector to give some margin between columns and apply styles to flex items */
 
 [class*="col-"] {
@@ -58,10 +51,6 @@ div img {
 	flex: 0 0 92%;
 	border: black solid 5px;
 	border-radius: 10px;
-}
-
-.scroll-row [class*="col-"] {
-	flex: 0 0 auto;
 }
 
 /* Add background colors to see how much space each column is taking */
@@ -156,4 +145,15 @@ div img {
 		flex: 0 0 25%;
 		order: 0;
 	}
+}
+
+/* scrolling row 6 */
+.scroll-row {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+
+.scroll-row [class*="col-"] {
+	flex: 0 0 auto;
 }
