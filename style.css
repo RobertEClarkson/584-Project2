@@ -60,6 +60,10 @@ div img {
 	border-radius: 10px;
 }
 
+.scroll-row [class*="col-"] {
+	flex: 0 0 auto;
+}
+
 /* Add background colors to see how much space each column is taking */
 
 .col-1 {
