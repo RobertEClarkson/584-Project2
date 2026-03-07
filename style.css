@@ -155,5 +155,5 @@ div img {
 }
 
 .scroll-row [class*="col-"] {
-	flex: 0 0 auto;
+	flex: 0 0 15%;
 }
