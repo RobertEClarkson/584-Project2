@@ -155,9 +155,9 @@ div img {
 }
 
 .scroll-row .col-big {
-	flex: 0 0 250px;
+	flex: 0 0 380px;
 }
 
 .scroll-row .col-small {
-	flex: 0 0 180px;
+	flex: 0 0 250px;
 }
