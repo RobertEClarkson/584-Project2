@@ -45,7 +45,7 @@ div img {
 
 .scroll-row {
 	display: flex;
-	flex-direction: row;
+	flex-flow: row wrap;
 	overflow-x: auto;
 }
 
