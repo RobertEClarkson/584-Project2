@@ -137,12 +137,12 @@ div img {
 	}
 
 	.col-small {
-		flex: 0 0 15%;
+		flex: 0 0 14%;
 		order: 0;
 	}
 
 	.col-big {
-		flex: 0 0 15%;
+		flex: 0 0 14%;
 		order: 0;
 	}
 }
